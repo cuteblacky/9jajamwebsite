@@ -128,7 +128,21 @@ a:hover {
 }
 
 
+.fill{
+  background-image: url("/images/jollofrice.jpg") !important;
+  /* height: 231.25px !important; */
+  height: 200px !important;
+  background-position: center; 
+  object-fit: fill !important;
+}
 
+
+#fill{
+  background-image: url("/images/jollofrice.jpg") !important;
+  height: 200px !important;
+  background-position: center; 
+  object-fit: fill !important;
+}
 
 
 /* ------------------------------------ */
@@ -534,6 +548,13 @@ input[type="date" i] {
   width: auto;
   max-height: 100%;
   vertical-align: middle;
+}
+
+
+.justify-content-center
+{
+  display: flex !important;
+  /* justify-self: center !important; */
 }
 
 
@@ -1013,6 +1034,22 @@ input[type="date" i] {
   background-color: #ec1d25;
   color: white;
 }
+
+
+.custom-btn2 {
+  background-color: rgb(7, 134, 0);
+  border-radius: 10px;
+  opacity: 0.9;
+  color: white !important;
+}
+
+.custom-btn2:hover {
+  background-color: #00cb29;
+  color: white;
+}
+
+
+
 
 
 
